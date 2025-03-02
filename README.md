@@ -55,9 +55,11 @@ pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 -f https://download.pyt
 ```
 
 4. Clone a stable habitat-lab version from the github repository and install. The command below will install the core of Habitat Lab as well as the habitat_baselines.
+```bash
 git clone --branch v0.1.7 https://github.com/facebookresearch/habitat-lab.git
 cd habitat-lab
 python setup.py develop --all # install habitat and habitat_baselines
+```
 
 5. Others.
 Our code is based on [ETPNav](https://github.com/MarSaKi/ETPNav), which requires the use of CLIP. Although CLIP is not actually necessary for our project, we haven't had the time to clean up and organize all the code yet. You may need to install this package in order to run this project. We feel sorry about this inconvenience and will reorganize the code in time.
@@ -68,7 +70,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Running
 
-You need to run these two scripts simultaneously.
+You need to run these two bash scripts simultaneously and set their 'data_path' to the same path.
 
 ```bash
 bash run_r2r/zero_shot.bash

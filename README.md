@@ -33,7 +33,7 @@ pip install -U google-generativeai
 
 ### High-Level Agent
 
-We follow this [[repo]](https://github.com/YicongHong/Discrete-Continuous-VLN?tab=readme-ov-file) to install Habitat Simulator but use Python 3.7 instead.
+We follow [[https://github.com/YicongHong/Discrete-Continuous-VLN]](https://github.com/YicongHong/Discrete-Continuous-VLN?tab=readme-ov-file) to install Habitat Simulator but use Python 3.7 instead.
 
 1. Create a virtual environment. We use Python 3.7 for the high-level agent.
 ```bash

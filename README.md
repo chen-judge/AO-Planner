@@ -70,7 +70,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Running
 
-You need to run these two bash scripts simultaneously and set their 'data_path' to the same path.
+You need to run these two bash scripts simultaneously and set their `data_path` to the same path.
 
 ```bash
 bash run_r2r/zero_shot.bash

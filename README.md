@@ -9,7 +9,7 @@ Jiaqi Chen, Bingqian Lin, Xinmin Liu, Lin Ma, Xiaodan Liang, Kwan-Yee K. Wong.
 AAAI Conference on Artificial Intelligence (**AAAI 2025**).
 
 ## Setup
-Our framework requires two different environments. Grounded SAM and Gemini need to run in Python 3.10, while the Habitat simulator and GPT run in Python 3.7.
+Our framework requires two different environments. The low-level agent (including Grounded SAM and Gemini) needs to run in Python 3.10, while the high-level agent (including Habitat simulator and GPT) runs in Python 3.7.
 
 Therefore, we implement a simple file-based communication mechanism between the two environments, which also facilitates saving the outputs of low-level and high-level agents.
 
